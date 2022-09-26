@@ -1,0 +1,22 @@
+{
+  "name": "monopoly-js",
+  "version": "0.0.1",
+  "description": "Jogo monopoly de tabuleiro feito por Alunos da UFF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gssantos94/Monopoly-js.git"
+  },
+  "author": "Gustavo Santos, Lucas David, Douglas Caldeira, Paulo Augusto, Danilo Siqueira e Millena Santos",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gssantos94/Monopoly-js/issues"
+  },
+  "homepage": "https://github.com/gssantos94/Monopoly-js#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
