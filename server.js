@@ -1,10 +1,10 @@
 const express = require('express')
 
 const app = express()
-const port = 4000
+const port = process.env.PORT || 3000
 
 
-app.get('/', (req, res) => {
+app.get('/', function (req, res) => {
     res.send("Servidor iniciado!")
 })
 
