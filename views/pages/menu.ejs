@@ -1,0 +1,38 @@
+<div class="flex justify-center items-center">
+    <div class="fundo flex justify-center items-center">
+        <a class="button button-play" onclick="visualizarStart()"></a>
+        <a href="#" class="button button-config" onclick="visualizarConfig()">
+            <img class="horario" src="/images/engrenagem.png">
+        </a>
+        <a href="#" class="button button-regras" onclick="visualizarRegras()">
+            <img class="tremer" src="/images/regras.png">
+        </a>
+    </div>
+</div>
+<main class="flex justify-center items-center">
+    <div class="play main_fundo" hidden>
+        <%- include('../partials/menu_play.ejs') %>
+    </div>
+    <div class="config main_fundo" hidden>
+        <p class="text-center text-2xl">Teste Config</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget lacus erat. Vestibulum a lectus quam. Proin
+            accumsan velit nec tellus blandit feugiat. Nullam lectus libero, venenatis sit amet sollicitudin eget,
+            volutpat non lacus. Nam sapien massa, malesuada at justo nec, elementum malesuada est. Etiam ut arcu vitae
+            tortor sollicitudin congue. Integer pretium a enim eget pharetra. Sed pretium lectus felis, eget malesuada
+            dolor ullamcorper nec. Curabitur varius non risus ut aliquam. Nunc aliquam metus ac nisi molestie, quis
+            varius nibh faucibus. Mauris convallis dapibus consectetur. Suspendisse tempus at ante a mattis. Phasellus
+            eget nisi a leo lobortis aliquet non eget justo. Phasellus quis orci vulputate, ullamcorper enim ac, blandit
+            ante. Fusce malesuada in orci nec ornare. Cras sed mollis velit.</p>
+    </div>
+    <div class="rules main_fundo" hidden>
+        <p class="text-center text-2xl">Teste Regras</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget lacus erat. Vestibulum a lectus quam. Proin
+            accumsan velit nec tellus blandit feugiat. Nullam lectus libero, venenatis sit amet sollicitudin eget,
+            volutpat non lacus. Nam sapien massa, malesuada at justo nec, elementum malesuada est. Etiam ut arcu vitae
+            tortor sollicitudin congue. Integer pretium a enim eget pharetra. Sed pretium lectus felis, eget malesuada
+            dolor ullamcorper nec. Curabitur varius non risus ut aliquam. Nunc aliquam metus ac nisi molestie, quis
+            varius nibh faucibus. Mauris convallis dapibus consectetur. Suspendisse tempus at ante a mattis. Phasellus
+            eget nisi a leo lobortis aliquet non eget justo. Phasellus quis orci vulputate, ullamcorper enim ac, blandit
+            ante. Fusce malesuada in orci nec ornare. Cras sed mollis velit.</p>
+    </div>
+</main>
