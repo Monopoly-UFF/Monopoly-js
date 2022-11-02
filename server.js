@@ -16,6 +16,9 @@ app.use(bodyParser.json())
 app.get('/', (req, res) => {
     res.render('pagina_inicial')
 })
+app.get('/board', (req, res) => {
+    res.render('pagina_jogo')
+})
 
 
 app.listen(port, () => {

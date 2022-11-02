@@ -73,13 +73,13 @@ body {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
 
-.dado:hover {
+/* .dado:hover {
   width: 54px;
   height: 50px;
   box-shadow: 5px 5px 15px rgba(102, 102, 102, 0.4);
-}
+} */
 
-.dado:active {
+ .dado-ativado, .dado:hover /*.dado:active*/ { 
   width: 54px;
   height: 50px;
   box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.8);
