@@ -4,6 +4,7 @@
   "description": "Jogo monopoly de tabuleiro feito por Alunos da UFF",
   "main": "app.js",
   "scripts": {
+    "dev": "node server/server.js client/target/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
