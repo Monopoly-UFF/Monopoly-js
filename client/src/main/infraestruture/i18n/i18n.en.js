@@ -4,20 +4,20 @@
 	exports.CONFIGURE_GAME_TITLE = 'Monopoly - game configuration';
 	
 	// Buttons
-	exports.BUTTON_NEW_GAME = 'New game';
-	exports.BUTTON_START_GAME = 'Start game';
-	exports.BUTTON_ADD_PLAYER = 'Click here to add a player';
+	exports.BUTTON_NEW_GAME = 'Novo Jogo';
+	exports.BUTTON_START_GAME = 'Iniciar Jogo';
+	exports.BUTTON_ADD_PLAYER = 'Adicionar Jogador';
 	
 	// Choices
 	exports.CHOICE_ROLL_DICE = 'Roll the dice';
-	exports.CHOICE_FINISH_TURN = 'Finish turn';
+	exports.CHOICE_FINISH_TURN = 'Fim de Turno';
 	exports.CHOICE_BUY_PROPERTY = 'Buy {property} for {price}';
-	exports.CHOICE_PAY_RENT = 'Pay {rent} to {toPlayer}';
-	exports.CHOICE_GO_BANKRUPT = 'Go bankrupt';
-	exports.CHOICE_PAY_TAX = 'Pay a {amount} tax';
-	exports.CHOOSE_FLAT_TAX = 'Choose a flat {amount} tax';
-	exports.CHOOSE_PERCENTAGE_TAX = 'Choose a {percentage}% tax';
-	exports.CHOICE_CALCULATE_DICE_RENT = 'Roll the dice and pay a rent of {multiplier} times the result';
+	exports.CHOICE_PAY_RENT = 'Pague {rent} para {toPlayer}';
+	exports.CHOICE_GO_BANKRUPT = 'Falido';
+	exports.CHOICE_PAY_TAX = 'Pague {amount} de imposto';
+	exports.CHOOSE_FLAT_TAX = 'Choose a flat {amount} imposto';
+	exports.CHOOSE_PERCENTAGE_TAX = 'Choose a {percentage}% imposto';
+	exports.CHOICE_CALCULATE_DICE_RENT = 'Jogue os dados e pague um aluguel de {multiplier} vezes o resultado';
 	exports.CHOICE_TRADE = "Trade with {player}";
 	exports.TRADE_MAKE_OFFER = "Make this offer";
 	exports.TRADE_CANCEL = "Cancel trade";
@@ -52,10 +52,10 @@
 	exports.START_DESCRIPTION = "Collect $200 salary as you pass";
 	exports.VISITING_JAIL = "Just visiting";
 	exports.FREE_PARKING = "Free parking";
-	exports.GO_TO_JAIL = "Go to jail";
+	exports.GO_TO_JAIL = "Vá para prisao";
 	
-	exports.COMPANY_WATER = 'Water Works';
-	exports.COMPANY_ELECTRIC = "Electric Company";
+	exports.COMPANY_WATER = 'Companhia de agua';
+	exports.COMPANY_ELECTRIC = "Companhia Eletrica";
 	
 	exports.RAILROAD_READING = 'Reading Railroad';
 	exports.RAILROAD_PENN = 'Pennsylvania Railroad';
@@ -89,15 +89,15 @@
 	exports.DEFAULT_PLAYER_NAME = 'Player {index}';
 	
 	// Player types
-	exports.PLAYER_TYPE_HUMAN = 'Human';
-	exports.PLAYER_TYPE_COMPUTER = 'Computer';
+	exports.PLAYER_TYPE_HUMAN = 'Jogador';
+	exports.PLAYER_TYPE_COMPUTER = 'Computador';
 	
 	// Price formatting
-	exports.PRICE_STRING = 'Price {price}';
+	exports.PRICE_STRING = 'Preço {price}';
 	exports.formatPrice = function (price) {
 		return '$' + price;
 	};
 	
 	// Trade
-	exports.TRADE_TITLE = "Trade";
+	exports.TRADE_TITLE = "Troca";
 }());
