@@ -32,7 +32,7 @@
 	exports.LOG_DOUBLE_DICE_ROLL = '{player} jogou e os dois deram {dice}';
 	exports.LOG_PROPERTY_BOUGHT = '{player} comprou {property}';
 	exports.LOG_RENT_PAID = '{fromPlayer} pagou {amount} para {toPlayer}';
-	exports.LOG_SALARY = "{player} passou pelo GO e rcebeu $200";
+	exports.LOG_SALARY = "{player} passou pelo GO e recebeu $200";
 	exports.LOG_TAX_PAID = "{player} pagou {amount} de imposto";
 	exports.LOG_OFFER_MADE = "{player1} offered {player2} : {offer1} for {offer2}";
 	exports.LOG_OFFER_ACCEPTED = "A oferta foi aceita";
