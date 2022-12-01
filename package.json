@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "node server/server.js client/target/dist",
+    "start": "node server/server.js client/target/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
